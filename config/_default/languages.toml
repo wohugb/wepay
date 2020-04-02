@@ -1,0 +1,14 @@
+
+[en]
+  title = "wechatpay-api-v3 Docs"
+  description = "Got document"
+  contentDir = "content/en"
+  languageName = "English"
+  weight = 1
+
+[zh]
+  title = "wechatpay-api-v3 文档"
+  description = "Got文档"
+  contentDir = "content/zh"
+  languageName = "中文"
+  weight = 2

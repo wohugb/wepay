@@ -1,0 +1,29 @@
+{
+  "name": "wepay",
+  "version": "1.0.0",
+  "description": "wepay api v3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wohugb/wepay.git"
+  },
+  "keywords": [
+    "wepay"
+  ],
+  "author": "BandCamp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wohugb/wepay/issues"
+  },
+  "homepage": "https://github.com/wohugb/wepay#readme",
+  "dependencies": {
+    "got": "^10.7.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.7.5",
+    "postcss-cli": "^7.1.0"
+  }
+}

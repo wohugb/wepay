@@ -1,0 +1,17 @@
+[[main]]
+  name = "文档"
+  url = "/docs/"
+  identifier = "docs"
+  weight = 10
+
+[[main]]
+  name = "博客"
+  url = "/blog/"
+  identifier = "blog"
+  weight = 30
+
+[[main]]
+  name = "社区"
+  url = "/community/"
+  identifier = "community"
+  weight = 40

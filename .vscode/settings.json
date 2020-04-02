@@ -1,0 +1,25 @@
+{
+  "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.7/bin/python3",
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "restructuredtext.confPath": "${workspaceFolder}/source",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.tabSize": 2,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.git": false
+  },
+  "editor.tokenColorCustomizations": {
+    "[Material Theme]": {
+      "semanticHighlighting": true
+    }
+  },
+  "html.format.preserveNewLines": false,
+  "html.format.enable": false,
+  "beautify.ignore": ""
+}
