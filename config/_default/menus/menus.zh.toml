@@ -5,13 +5,13 @@
   weight = 10
 
 [[main]]
-  name = "博客"
-  url = "/blog/"
+  name = "官方文档"
+  url = "https://pay.weixin.qq.com/wiki/doc/api/sl.html"
   identifier = "blog"
   weight = 30
 
 [[main]]
-  name = "社区"
-  url = "/community/"
+  name = "官方社区"
+  url = "https://developers.weixin.qq.com/community/pay"
   identifier = "community"
   weight = 40

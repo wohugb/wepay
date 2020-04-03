@@ -1,0 +1,77 @@
++++
+title = "微信支付apiv3"
+linkTitle = "apiv3"
+
++++
+
+{{< blocks/cover title="V3接口概览" image_anchor="top" height="full" color="orange" >}}
+<div class="mx-auto">
+	<a class="btn btn-lg btn-primary mr-3 mb-4" href="{{< relref "/docs" >}}">
+		文档 <i class="fas fa-arrow-alt-circle-right ml-2"></i>
+	</a>
+	<a class="btn btn-lg btn-secondary mr-3 mb-4" href="https://github.com/google/docsy-example">
+		安装 <i class="fab fa-github ml-2 "></i>
+	</a>
+	<p class="lead mt-5">APIv3相关内容</p>
+	{{< blocks/link-down color="info" >}}
+</div>
+{{< /blocks/cover >}}
+
+
+{{% blocks/lead color="primary" %}}
+微信支付APIv3 NodeJs 实现
+
+相关 [文档](http://wepay-docs.netlify.com))
+{{% /blocks/lead %}}
+
+{{< blocks/section color="dark" >}}
+{{% blocks/feature icon="fab fa-weixin" title="v3开源项目组" url="https://github.com/wechatpay-apiv3" %}}
+项目地址
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-weixin" title="v3接口规范" url="https://wechatpay-api.gitbook.io/wechatpay-api-v3/" %}}
+v3接口规范
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-weixin" title="V3接口概览" url="https://pay.weixin.qq.com/wiki/doc/apiv3/wxpay/pages/Overview.shtml" %}}
+V3接口
+{{% /blocks/feature %}}
+
+
+{{< /blocks/section >}}
+
+
+{{< blocks/section >}}
+<div class="col">
+<h1 class="text-center">官方开源工具</h1>
+</div>
+
+{{< /blocks/section >}}
+
+
+
+{{< blocks/section >}}
+{{% blocks/feature icon="fab fa-postman" title="微信支付API v3 Postman脚本使用指南" %}}
+Postman是一款业界知名的API开发工具。
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-php" title="wechatpay-guzzle-middleware" url="https://github.com/wechatpay-apiv3/wechatpay-guzzle-middleware" %}}
+微信支付API v3的Guzzle HttpClient中间件Middleware，实现了请求签名的生成和应答签名的验证。
+{{% /blocks/feature %}}
+
+
+{{% blocks/feature icon="fab fa-java" title="CertificateDownloader" url="https://github.com/wechatpay-apiv3/CertificateDownloader" %}}
+Java 微信支付 APIv3 平台证书的命令行下载工具
+{{% /blocks/feature %}}
+
+{{% blocks/feature icon="fab fa-apache" title="wechatpay-apache-httpclient" url="https://github.com/wechatpay-apiv3/wechatpay-apache-httpclient" %}}
+微信支付API v3的Apache HttpClient扩展，实现了请求签名的生成和应答签名的验证。
+
+如果你是使用Apache HttpClient的商户开发者，可以使用它构造HttpClient。得到的HttpClient在执行请求时将自动携带身份认证信息，并检查应答的微信支付签名。
+{{% /blocks/feature %}}
+
+{{< /blocks/section >}}
+
