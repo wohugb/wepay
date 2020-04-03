@@ -1,12 +1,12 @@
 ---
 title: '开发工具'
 weight: 5
+description: >
+  我们也提供多种编程语言的开发库，开发者可以根据自己的需要，选择对应的库。
 type: 'docs'
 ---
 
 ## 库和 SDK
-
-我们也提供多种编程语言的开发库，开发者可以根据自己的需要，选择对应的库。
 
 ​- [wechatpay-apache-httpclient](https://github.com/wechatpay-apiv3/wechatpay-apache-httpclient)，适用于使用 Apache HttpClient 处理 HTTP 的 Java 开发者。
 

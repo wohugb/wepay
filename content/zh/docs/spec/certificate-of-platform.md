@@ -1,6 +1,8 @@
 ---
 title: '平台证书'
 weight: 7
+description: >
+  获取商户当前可用的平台证书(/v3/certificates)。
 type: 'docs'
 ---
 

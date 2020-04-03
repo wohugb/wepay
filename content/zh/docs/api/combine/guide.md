@@ -2,6 +2,8 @@
 title: '合单支付开发流程'
 linkTitle: '开发指引'
 weight: 1
+description: >
+  合单支付开发指引
 type: 'docs'
 ---
 

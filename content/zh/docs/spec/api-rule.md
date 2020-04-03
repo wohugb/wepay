@@ -1,10 +1,10 @@
 ---
 title: '接口规则'
 weight: 2
+description: >
+  微信支付 API v3 是遵循 RESTful 风格设计的 HTTP API。
 type: 'docs'
 ---
-
-微信支付 API v3 是遵循 RESTful 风格设计的 HTTP API。
 
 ## 基本信息
 
