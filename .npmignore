@@ -1,0 +1,16 @@
+archetypes
+assets
+config
+content
+data
+layouts
+node_modules
+public
+ressources
+scripts
+static
+themes
+package-lock.json
+netlify.toml
+.vscode/settings.json
+.gitmodules

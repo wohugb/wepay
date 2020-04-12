@@ -1,6 +1,7 @@
 # ref: https://github.com/github/gitignore/blob/master/Composer.gitignore
-test/config.js
+test/config
 test/cert
 node_modules
 public
 data
+package-lock.json

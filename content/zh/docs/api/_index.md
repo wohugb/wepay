@@ -1,7 +1,7 @@
 ---
 title: 'APIv3文档'
 linkTitle: 'APIv3文档'
-weight: 3
+weight: 4
 description: >
   微信支付V3版API接口文档
 type: 'docs'

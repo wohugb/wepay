@@ -12123,7 +12123,15 @@ readers do not read off random characters that represent icons */
   position: absolute;
   top: 5.5rem;
   right: 1rem;
-  z-index: 22; }
+  z-index: 22;
+  margin-top: 1rem; }
+
+.faq .question {
+  line-height: 1.2;
+  margin-bottom: 5px; }
+
+.faq .answer {
+  margin-left: 2.5em; }
 
 .td-content .highlight {
   margin: 2rem 0;
@@ -12133,17 +12141,19 @@ readers do not read off random characters that represent icons */
     background-color: inherit !important; }
   .td-content .highlight pre {
     margin: 0;
-    padding: 0; }
+    padding-top: 0;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5; }
 
-.td-content p code, .td-content li > code, .td-content table code {
+.td-content p code, .td-content li > code {
   color: inherit;
   padding: 0.2em 0.4em;
   margin: 0;
   font-size: 85%;
-  word-break: normal;
   background-color: rgba(0, 0, 0, 0.05);
   border-radius: 0.25rem; }
-  .td-content p code br, .td-content li > code br, .td-content table code br {
+  .td-content p code br, .td-content li > code br {
     display: none; }
 
 .td-content pre {
@@ -12552,9 +12562,12 @@ footer {
     position: relative;
     top: -4rem;
     visibility: hidden; }
-  h2[id]:before, h3[id]:before, h4[id]:before, h5[id]:before {
+  h2[id]:before,
+  h3[id]:before,
+  h4[id]:before,
+  h5[id]:before {
     display: block;
-    content: " ";
+    content: ' ';
     margin-top: -5rem;
     height: 5rem;
     visibility: hidden; } }

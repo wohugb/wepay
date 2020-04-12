@@ -1,8 +1,9 @@
 ---
-title: '特约商户管理API'
-linkTitle: '特约商户管理'
+title: '点金计划'
+linkTitle: '点金计划'
+date: '2020-03-27'
 weight: 7
 description: >
-  微信支付官方提供的支付后跳转能力的运营升级计划
+  服务商为特约商户开通或关闭点金计划
 type: 'docs'
 ---

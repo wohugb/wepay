@@ -1,8 +1,8 @@
 {
-  "name": "wepay",
+  "name": "@wohugb/wepay",
   "version": "1.0.0",
   "description": "wepay api v3",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,11 +19,18 @@
     "url": "https://github.com/wohugb/wepay/issues"
   },
   "homepage": "https://github.com/wohugb/wepay#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "dependencies": {
-    "got": "^10.7.0"
+    "got": "^10.7.0",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0",
+    "query-string": "^6.12.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.5",
+    "nock": "^12.0.3",
     "postcss-cli": "^7.1.0"
   }
 }

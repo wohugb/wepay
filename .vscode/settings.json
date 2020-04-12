@@ -21,5 +21,6 @@
   },
   "html.format.preserveNewLines": false,
   "html.format.enable": false,
-  "beautify.ignore": ""
+  "beautify.ignore": "",
+  "editor.wordWrapColumn": 120
 }
