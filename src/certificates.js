@@ -5,7 +5,7 @@ const fs = require('fs');
 const got = require('./wp-got');
 const low = require('lowdb');
 const FileSync = require('lowdb/adapters/FileSync');
-const sign = require('./utils/wp-sign');
+const kits = require('./utils/wp-kits');
 const util = require('util');
 
 module.exports = async function (config) {
@@ -53,7 +53,7 @@ module.exports = async function (config) {
     //     .write();
     // }
     let options = Object.assign({ aesKey }, data.encrypt_certificate);
-    let decrypt = sign.aes256gcmDecrypt(options);
+    let decrypt = kits.aes256gcmDecrypt(options);
     fs.writeFileSync(platform_cert, decrypt);
     return decrypt;
   }

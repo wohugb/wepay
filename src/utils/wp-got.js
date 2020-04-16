@@ -1,7 +1,7 @@
 'use strict';
 
 const util = require('util');
-const wpSgin = require('./wp-sign');
+const kits = require('./wp-kits');
 const got = require('got');
 const pkg = require('../package');
 /**
@@ -35,7 +35,7 @@ module.exports = got.extend({
 
       let token = Object.assign(
         { mchid, serial_no },
-        wpSgin.genSignInfo({
+        kits.genSignInfo({
           method,
           pathname,
           body,
