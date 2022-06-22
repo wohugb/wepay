@@ -23,7 +23,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "got": "^10.7.0",
+    "got": "^11.8.5",
     "lowdb": "^1.0.0",
     "moment": "^2.24.0",
     "query-string": "^6.12.0"
